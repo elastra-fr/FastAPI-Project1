@@ -1,7 +1,7 @@
 
 # Simple Books App
 
-work in progress
+A very very very simple books app to test fast API
 
 ## Env
 
@@ -17,6 +17,3 @@ python -m venv .venv
 
 uvicorn books:app --reload
 
-### Functions order
-
-Beware FastApi look for functions from top to botom.
