@@ -16,3 +16,7 @@ python -m venv .venv
 ### Start Application 
 
 uvicorn books:app --reload
+
+### Functions order
+
+Beware FastApi look for functions from top to botom.
