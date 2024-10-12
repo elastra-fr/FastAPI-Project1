@@ -13,6 +13,10 @@ python -m venv .venv
 
 .\.venv\Scripts\Activate
 
+### Install Fast API
+
+pip install "fastapi[standard]"
+
 ### Start Application 
 
 uvicorn books:app --reload
